@@ -19,4 +19,5 @@ body, html{
 .tds {
     padding: 20px;
     border: white 1px solid;
+    text-align: center;
 }
