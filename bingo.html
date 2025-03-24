@@ -70,6 +70,34 @@
         colunaN = []
         colunaG = []
         colunaO = []
+
+        function GerarArray(NumeroInicial, quantidade) {
+            var retorno = []
+            for (var i = 0; i < quantidade; i++) {
+                retorno.push(NumeroInicial)
+                NumeroInicial++;
+            }
+            return retorno
+        }
+        CartelaB = GerarArray(1,15)
+        console.log("Array da coluna B");
+        console.log(CartelaB)
+
+        CartelaI = GerarArray(16,15)
+        console.log("Array da coluna I");
+        console.log(CartelaI)
+
+        CartelaN = GerarArray(31,15)
+        console.log("Array da coluna N");
+        console.log(CartelaN)
+
+        CartelaG = GerarArray(46,15)
+        console.log("Array da coluna G");
+        console.log(CartelaG)
+
+        CartelaO = GerarArray(61,15)
+        console.log("Array da coluna O");
+        console.log(CartelaO)
     </script>
 </body>
 </html>
