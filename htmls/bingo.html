@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bingo.css">
+    <link rel="stylesheet" href="/styles/bingo.css">
     <title>Cartela de Bingo</title>
 
 
@@ -26,7 +26,7 @@
                 <td id="b1" class="tds" onclick="marcarSorteado(b1,this)">11</td>
                 <td class="tds">24</td>
                 <td class="tds">35</td>
-                <td class="tds">47</td>
+                <td id="g" class="tds">47</td>
                 <td class="tds">70</td>
             </tr>
 
@@ -34,7 +34,7 @@
                 <td class="tds">6</td>
                 <td class="tds">22</td>
                 <td class="tds">33</td>
-                <td class="tds">51</td>
+                <td id="g" class="tds">51</td>
                 <td class="tds">74</td>
             </tr>
 
@@ -42,7 +42,7 @@
                 <td class="tds">12</td>
                 <td class="tds">16</td>
                 <td class="tds">,,,</td>
-                <td class="tds">49</td>
+                <td id="g" class="tds">49</td>
                 <td class="tds">69</td>
             </tr>
 
@@ -50,7 +50,7 @@
                 <td class="tds">15</td>
                 <td class="tds">19</td>
                 <td class="tds">44</td>
-                <td class="tds">59</td>
+                <td id="g" class="tds">59</td>
                 <td class="tds">63</td>
             </tr>
 
@@ -58,11 +58,15 @@
                 <td class="tds">13</td>
                 <td class="tds">30</td>
                 <td class="tds">42</td>
-                <td class="tds">56</td>
+                <td id="g" class="tds">56</td>
                 <td class="tds">61</td>
             </tr>
         </tbody>
     </table>
+
+    <button onclick="GerarCartela()">
+        Gerar Cartela
+    </button>
 
     <script>
         colunaB = []
@@ -98,6 +102,29 @@
         CartelaO = GerarArray(61,15)
         console.log("Array da coluna O");
         console.log(CartelaO)
+
+        function GerarCartela() {
+            for(var i = 1; i <= 5; i++)
+
+            {
+
+                var td = document.getElementById("g"+1)
+                td.innerText = CartelaG[i]
+
+
+                var td = document.getElementById("g"+1)
+                td.innerText = CartelaG[i]
+
+                var td = document.getElementById("g"+1)
+                td.innerText = CartelaG[i]
+
+                var td = document.getElementById("g"+1)
+                td.innerText = CartelaG[i]
+
+                var td = document.getElementById("g"+1)
+                td.innerText = CartelaG[i]
+            }
+        }
 
         var b2 = document.getElementById("b2")
         var b1 = document.getElementById("b1")
