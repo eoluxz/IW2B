@@ -4,91 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/bingo.css">
     <title>Cartela de Bingo</title>
-    <style>
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            background-color: #666;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
 
-        div {
-            /* background-image: url('cartela.jpg'); */
-            width: 476px;
-            height: 515px;
-        }
-        table{
-            border:1px solid #FF0000;
-            margin: 13px 13px;
-            background-color: #FFFFFF;
-        }
-        td, th{
-            font-size: 55px;
-            padding:3px 15px;
-            text-align: center;
-            border:2px solid;
-            
-        }
-    </style>
 </head>
 
 <body>
     <div>
-        <table>
+        <table class="tabela">
             <thead>
-                <tr>
-                    <th>B</th>
-                    <th>I</th>
-                    <th>N</th>
-                    <th>G</th>
-                    <th>O</th>
+                <tr class="tds">
+                    <th class="tds">B</th>
+                    <th class="tds">I</th>
+                    <th class="tds">N</th>
+                    <th class="tds">G</th>
+                    <th class="tds" >O</th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td id="b1" onclick="MarcarSorteado('b1',this)" >8</td>
-                    <td id="i1">24</td>
-                    <td id="n1">33</td>
-                    <td id="g1">51</td>
-                    <td id="o1">75</td>
+                <tr class="tds">
+                    <td class="tds" id="b1" onclick="MarcarSorteado('b1',this)" >8</td>
+                    <td class="tds" id="i1">24</td>
+                    <td class="tds" id="n1">33</td>
+                    <td class="tds" id="g1">51</td>
+                    <td class="tds" id="o1">75</td>
                 </tr>
                 <tr>
-                    <td id="b2">9</td>
-                    <td id="i2">24</td>
-                    <td id="n2">33</td>
-                    <td id="g2">51</td>
-                    <td id="o2">75</td>
+                    <td class="tds" id="b2">9</td>
+                    <td class="tds" id="i2">24</td>
+                    <td class="tds" id="n2">33</td>
+                    <td class="tds" id="g2">51</td>
+                    <td  class="tds"id="o2">75</td>
                 </tr>
                 <tr>
-                    <td id="b3">1</td>
-                    <td id="i3">24</td>
-                    <td id="n3">33</td>
-                    <td id="g3">51</td>
-                    <td id="o3">75</td>
+                    <td class="tds" id="b3">1</td>
+                    <td class="tds" id="i3">24</td>
+                    <td class="tds" id="n3">33</td>
+                    <td class="tds"  id="g3">51</td>
+                    <td class="tds"  id="o3">75</td>
                 </tr>
                 <tr>
-                    <td id="b4">12</td>
-                    <td id="i4">24</td>
-                    <td id="n4">33</td>
-                    <td id="g4">51</td>
-                    <td id="o4">75</td>
+                    <td class="tds"  id="b4">12</td>
+                    <td class="tds"  id="i4">24</td>
+                    <td class="tds"  id="n4">33</td>
+                    <td class="tds" id="g4">51</td>
+                    <td class="tds" id="o4">75</td>
                 </tr>
                 <tr>
-                    <td id="b5">12</td>
-                    <td id="i5">24</td>
-                    <td id="n5">33</td>
-                    <td id="g5">51</td>
-                    <td id="o5">75</td>
+                    <td class="tds" id="b5">12</td>
+                    <td class="tds" id="i5">24</td>
+                    <td class="tds"  id="n5">33</td>
+                    <td class="tds" id="g5">51</td>
+                    <td class="tds"  id="o5">75</td>
                 </tr>
             </tbody>
 
 
-<table id="painel-numeros" ">
+<table class="tabela" id="painel-numeros" ">
     <tbody>
         <script>
             document.write("<tr>");

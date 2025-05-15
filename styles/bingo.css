@@ -21,3 +21,13 @@ body, html{
     border: white 1px solid;
     text-align: center;
 }
+
+#painel-numeros {
+    gap: 20px;
+    font-size: 60px;
+    background-color: rgba(151, 255, 215, 0.582);
+    padding: 30px;
+    padding: 20px;
+    border: white 1px solid;
+    text-align: center;
+}
