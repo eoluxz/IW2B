@@ -1,25 +1,30 @@
 <script>
-    var cadeira = {
+    var carro = {
+        "modelo" : () => {document.write("SUV")},
+        "marca" : "",
+        "ano" : "",
+        "cor" : "vermelho",
         "cor" : "azul",
-        "girar" : () => {alert("oiiiiiii")},
-        "subir" : () => {document.write("subindo")},
-        "descer" : () => {console.log("descendo")},
-        "andar" : (direcao) => {alert("sentido: "+direcao)}
+        "cor" : "verde",
         
         }
 
-    var enderecoEtec = {
-        "rua":"",
-        "cep":"",
-        "numero":"",
-        "cidade":"",
-        "estado":"",
-        "bairro":"",
-    }
-    enderecoEtec.rua = "Avenida Duque de Caxias"
-    enderecoEtec.bairro = "centro"
-    enderecoEtec.cep = "17015220"
-    enderecoEtec.cidade = "Bauru"
-    enderecoEtec.estado = "SP"
-    enderecoEtec.numero = "12-70"
+        carro.ano = "2024"
+        
+        cor = document.getElementById("cores")
+        cor.innertext = carro.cor
+    
+
+
+
 </script>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Objetos Carro</title>
+</head>
+<body>
+
+    <div id="cores"></div>
