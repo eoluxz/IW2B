@@ -1,45 +1,45 @@
 <script>
     
     var carro = {
-      marca: "Toyota",
-      modelo: "Corolla",
-      ano: 2022
+      marca: "chevrolet",
+      modelo: "tracker",
+      ano: 2022,
     };
 
-    document.write("Modelo do carro: " + carro.modelo + "<br>");
+    document.write("tracker");
 
     carro.ano = 2024;
 
     carro.cor = "vermelho";
 
+    var carro1 = {
+      marca: "fiat",
+      modelo: "strada",
+      ano: 2014,
+      cor: "vermelho",
+    };
+
     var carro2 = {
-      marca: "Honda",
-      modelo: "Civic",
-      ano: 2023,
-      cor: "preto"
+      marca: "fiat",
+      modelo: "mobi",
+      ano: 2025,
+      cor: "azul",
     };
 
-    var carro3 = {
-      marca: "Ford",
-      modelo: "Focus",
-      ano: 2021,
-      cor: "azul"
-    };
-
-    var divCores = document.getElementById("coresCarros");
-    divCores.innerText = "Cores dos carros: " + carro.cor + ", " + carro2.cor + ", " + carro3.cor;
+    var cores = document.getElementById("cores");
+    cores.innerText = "Cores dos carros: " + carro.cor + ", " + carro1.cor + ", " + carro2.cor;
 
     var pessoa = {
-      nome: "João",
+      nome: "Lucca",
       endereco: {
-        rua: "Av. Brasil",
-        numero: 100,
-        cidade: "São Paulo"
+        rua: "Jamil Gebara",
+        numero: 125,
+        cidade: "SP"
       }
     };
 
-   var divCidade = document.getElementById("cidadePessoa");
-    divCidade.innerText = "Cidade: " + pessoa.endereco.cidade;
+   var Cidade = document.getElementById("cidade");
+    Cidade.innerText = "Cidade: " + pessoa.endereco.cidade;
 
 
 </script>
@@ -53,3 +53,4 @@
 <body>
 
     <div id="cores"></div>
+    <div id="cidade"></div>
