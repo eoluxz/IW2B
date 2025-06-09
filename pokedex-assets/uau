@@ -1,0 +1,19 @@
+Enunciado: Elabore questões de múltipla escolha sobre PHP, utilizando um dos seguintes formatos:
+
+1) Preenchimento de lacunas: Crie uma questão onde os alunos devem completar uma sentença com a alternativa correta. Exemplo: "Para declarar uma variável em PHP, utilizamos o símbolo __ antes do nome da variável."
+
+2) Questões diretas: Formule perguntas objetivas sobre conceitos, funções ou sintaxe do PHP. Exemplo: "Qual função em PHP é utilizada para imprimir um texto na tela?"
+
+3) Agrupamento de questões: Monte um conjunto de alternativas onde os alunos devem selecionar todas as opções corretas. Exemplo: "Quais das seguintes funções são utilizadas para manipulação de strings em PHP?"
+
+4) Verdadeiro ou falso: Apresente uma afirmação sobre PHP e peça aos alunos que indiquem se é verdadeira ou falsa. Exemplo: "No PHP, todas as variáveis devem ser declaradas com um tipo específico antes de serem usadas. (V/F)"
+
+5) Ordenação: Forneça uma sequência de passos ou trechos de código embaralhados e peça aos alunos para organizá-los corretamente. Exemplo: "Ordene os passos corretos para conectar-se a um banco de dados MySQL usando PHP."
+
+6) Associação de colunas: Crie duas listas (por exemplo, funções e suas descrições) e peça aos alunos para associá-las corretamente. Exemplo: "Associe cada função PHP à sua respectiva finalidade."
+
+7) Questões de código: Apresente um trecho de código PHP com um erro e peça aos alunos para identificar e corrigir o problema. Exemplo: "O código abaixo contém um erro. Identifique e corrija-o."
+
+Atenção:
+Cada questão deve conter cinco alternativas, sendo apenas uma correta (exceto no caso de agrupamento de questões, onde pode haver mais de uma resposta correta). 
+Certifique-se de que as alternativas incorretas sejam plausíveis para tornar a questão desafiadora. 
