@@ -1,31 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Links -->
+  <link rel="icon" href="/pokedex-assets/favicon-16x16.png">
+  <link rel="stylesheet" href="/styles/pokedex.css">
+
+  <!-- Main JS -->
+  <script defer src="/pokedex-js/poke.js"></script>
+
   <title>Pokédex</title>
-  <link rel="stylesheet" href="/styles/pokedex.css" />
 </head>
 <body>
-  <div class="pokedex">
-    <div class="tela">
-      <h1>Pokédex</h1>
-      <div class="pokemon_info">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu" class="pokemon_img" />
-        <h2># - Pokemon</h2>
-        <p><strong>Tipo:</strong>  </p>
-        <p class="descricao">
-          descrição do pokemon
-        </p>
-      </div>
+  
+  <main>
+    <img src="#" alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
+
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="Name or Number"
+        required
+      />
+    </form>
+
+    <div class="buttons">
+      <button class="button btn-prev">Prev &lt;</button>
+      <button class="button btn-next">Next &gt;</button>
     </div>
-    <div class="botoes">
-      <button class="botaoazul"></button>
-      <button class="botao1 botoesc"></button>
-      <button class="botao2 botoesc"></button>
-      <button class="botao3 botoesc"></button>
-      
-    </div>
-  </div>
+
+    <img src="/pokedex-assets/Untitled design.png" alt="pokedex" class="pokedex">
+  </main>
+
 </body>
 </html>
