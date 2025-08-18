@@ -6,121 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <style>
-      div {
-        border: 1px solid;
-        text-align: center;
+      .banner {
+          background-color: #f56a79;
+          color: white;
+          padding: 10px 0;
+          text-align: center;
       }
-    </style>
-    <title>Página Inicial</title>
+      .navbar {
+          background-color: #343a40;
+      }
+      .navbar-dark .navbar-nav .nav-link {
+          color: white;
+      }
+
+      .imagem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                  <a class="nav-link" href="#">link</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#">disable </a>
               </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-
-
-      <div class="container" style="border:1px solid">
-        <div class="row">
-          <div class="col-12">
-            col-12
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-6">
-            Bloco 1
-          </div>
-          <div class="col-6">
-            Bloco 2
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-4">
-            col-4
-          </div>
-          <div class="col-4">
-            col-4
-          </div>
-          <div class="col-4">
-            col-4
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-3">
-            col-3
-          </div>
-          <div class="col-3">
-            col-3
-          </div>
-          <div class="col-3">
-            col-3
-          </div>
-          <div class="col-3">
-            col-3
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-2">
-            col-2
-          </div>
-          <div class="col-8">
-            col-8
-          </div>
-          <div class="col-2">
-            col-2
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-3">
-            col-3
-          </div>
-          <div class="col-6">
-            col-6
-          </div>
-          <div class="col-3">
-            col-3
-          </div>
-        </div>
-      
+          </ul>
       </div>
+  </nav>
+
+  <div class="imagem">
+    <img src="5a3fb993d12796bf87b2a05e54f47ad8.jpg" class="img-fluid" alt="...">
+  </div>
+
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-3">
+              <div class="list-group">
+                  <a href="#" class="list-group-item list-group-item-action active">Menu Principal</a>
+                  <a href="#" class="list-group-item list-group-item-action">Início</a>
+                  <a href="#" class="list-group-item list-group-item-action">Perfil</a>
+                  <a href="#" class="list-group-item list-group-item-action">Mensagens</a>
+                  <a href="#" class="list-group-item list-group-item-action">Configurações</a>
+                  <a href="#" class="list-group-item list-group-item-action">Ajuda</a>
+                  <a href="#" class="list-group-item list-group-item-action">Sair</a>
+              </div>
+          </div>
+          <div class="col-md-9">
+              <h2>Curiosidade sobre as abelhas</h2>
+              <p>Apenas algumas Curiosidades sobre as abelhas!</p>
+              <h3>Polinização e Importância para o Meio Ambiente</h3>
+              <p>As abelhas são responsáveis pela polinização de aproximadamente 75% das plantas com flores, incluindo muitos alimentos que consumimos, como frutas, vegetais e nozes. Sem elas, a produção de alimentos seria drasticamente reduzida. </p>
+              <h3>Superpoderes de Voo:</h3>
+              <p>Apesar de seu tamanho pequeno, as abelhas conseguem voar a uma velocidade de até 24 km/h. Elas batem suas asas aproximadamente 200 vezes por segundo para gerar a sustentação necessária para o voo. </p>
+              <h3>Dança das Abelhas:</h3>
+              <p>Quando uma abelha encontra uma fonte de néctar, ela retorna à colmeia e realiza uma "dança" chamada "dança de tremor" ou "dança de figura 8". Essa dança indica a direção e a distância da fonte de alimento para as outras abelhas. </p>
+          </div>
+      </div>
+  </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
