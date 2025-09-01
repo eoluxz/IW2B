@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Alunos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ABELHAS!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tipos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cadastro</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <h2>Pesquisar Tipos de Abelhas</h2>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Pesquise aqui..." aria-label="Pesquisar">
+          <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+        </form>
+      </div>
+      <div class="col-me-2 pad">
+        <a href="#" class="btn btn-success">Nova Abelha</a>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <h3>Abelhas</h3>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>caracteristica</th>
+            <th>Função</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Abelha Melífera</td>
+            <td>a espécie de abelha mais comum e amplamente domesticada.</td>
+            <td>Produz mel, cera e própolis. Além disso, é uma das principais polinizadoras de culturas agrícolas.</td>
+            <td>
+              <a href="#" class="btn btn-primary">Editar</a>
+              <a href="#" class="btn btn-danger">Excluir</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Abelha Melipona</td>
+            <td>Não possui ferrão, o que a torna mais segura em ambientes próximos a seres humanos.</td>
+            <td>Também produz mel, que é considerado de alta qualidade e com propriedades medicinais.</td>
+            <td>
+              <a href="#" class="btn btn-primary">Editar</a>
+              <a href="#" class="btn btn-danger">Excluir</a>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Abelha Megachile</td>
+            <td>Recebe esse nome por cortar pedaços de folhas para construir seus ninhos.</td>
+            <td>Poliniza uma ampla variedade de plantas e flores.</td>
+            <td>
+              <a href="#" class="btn btn-primary">Editar</a>
+              <a href="#" class="btn btn-danger">Excluir</a>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Abelha Carpinteira</td>
+            <td>Tem um tamanho grande e corpo robusto, com cores variando entre preto e azul metálico.</td>
+            <td>Poliniza plantas que outras abelhas não conseguem acessar devido ao tamanho das flores.</td>
+            <td>
+              <a href="#" class="btn btn-primary">Editar</a>
+              <a href="#" class="btn btn-danger">Excluir</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</body>
+</html>
